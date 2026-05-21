@@ -22,19 +22,21 @@
     </header>
 
     <!-- Main Hero Section -->
-    <main class="w-full max-w-4xl mx-auto my-auto py-12 flex flex-col gap-6">
-        <div class="inline-block bg-emerald-500/10 text-emerald-400 text-xs px-2.5 py-1 rounded border border-emerald-500/20 w-fit">
-            // Core Thesis
+    <main class="w-full max-w-4xl mx-auto my-auto py-12 flex flex-col gap-8">
+        <div class="flex flex-col gap-4">
+            <div class="inline-block bg-emerald-500/10 text-emerald-400 text-xs px-2.5 py-1 rounded border border-emerald-500/20 w-fit">
+                // Core Thesis
+            </div>
+            <h1 class="text-3xl md:text-5xl font-extrabold tracking-tight text-zinc-50 max-w-3xl leading-tight">
+                Exploring the intersection of traditional storage engines and accelerated AI compute layers.
+            </h1>
+            <p class="text-sm md:text-base text-zinc-400 max-w-2xl leading-relaxed">
+                Researching the low-level plumbing required to keep the world’s most expensive GPUs from sitting idle.
+            </p>
         </div>
-        <h1 class="text-3xl md:text-5xl font-extrabold tracking-tight text-zinc-50 max-w-3xl leading-tight">
-            Exploring the intersection of traditional storage engines and accelerated AI compute layers.
-        </h1>
-        <p class="text-sm md:text-base text-zinc-400 max-w-2xl leading-relaxed">
-            Researching the low-level plumbing required to keep the world’s most expensive GPUs from sitting idle: Deterministic caching hierarchies, ordered index topologies, and aggressive memory eviction frameworks. 
-        </p>
 
         <!-- Research Vectors -->
-        <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 mt-6 max-w-3xl">
+        <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 max-w-3xl">
             <div class="border border-zinc-800 bg-zinc-900/40 p-4 rounded">
                 <div class="text-zinc-500 text-xs mb-1">Vector 01 / Kernel Elements</div>
                 <div class="text-zinc-300 text-sm font-semibold">Transactional KV for GPU Tiers</div>
@@ -47,6 +49,17 @@
                 <div class="text-zinc-500 text-xs mb-1">Vector 03 / Data Pipelines</div>
                 <div class="text-zinc-300 text-sm font-semibold">Disaggregated Flash Streaming</div>
             </div>
+        </div>
+
+        <!-- About / Bio Section -->
+        <div class="border-t border-zinc-900 pt-8 max-w-2xl flex flex-col gap-3">
+            <div class="text-zinc-500 text-xs tracking-wider uppercase">[ About BufferNaut ]</div>
+            <p class="text-xs md:text-sm text-zinc-400 leading-relaxed">
+                BufferNaut Labs is an independent engineering notebook and research space dedicated to tracking the structural evolution of hardware-centric storage architectures. As machine learning workloads demand unprecedented memory bandwidth and continuous context streaming, traditional storage primitives must be re-imagined from the metal up.
+            </p>
+            <p class="text-xs md:text-sm text-zinc-500 leading-relaxed">
+                This space documents deep-dives into exploratory ideas that bridge reliable, deterministic storage with highly parallelized accelerated compute layers.
+            </p>
         </div>
     </main>
 
